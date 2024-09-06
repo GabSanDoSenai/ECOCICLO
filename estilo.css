@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "lexend";
+    src: url(font/Lexend-VariableFont_wght.ttf);
+}
+
+header {
+    background-image: url(img/fundo.png);
+    background-size: cover;
+    height: 500px;
+}
+.titulo{
+    font-family: "lexend";
+    font-size: 80px;
+    font-weight: 500;
+}
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Subtitulo {
+    font-family: "lexend";
+    font-size: 25px;
+    font-weight: 500;
+}
+body {
+    background-color:#598C38;
+}
+.imagem{
+    height: 300px;
+    justify-content: center;
+}
+.divisao {
+    background-color: #F4F3F3;
+    width: 320px;
+    border-radius: 20px;
+    margin: 15px;
+}
+.display{
+    display: flex;
+    justify-content: center;
+}
+.texto {
+    font-family: "lexend";
+    font-size: 15px;
+    text-align: center;
+}
+.nome {
+    font-family: "lexend";
+    font-size: 50px;
+    color: #F4F3F3;
+    font-weight: 300px;
+    justify-content: center;
+}
+.redes{
+    color: #F4F3F3;
+    font-family: "lexend";
+    font-weight: 300;
+    font-size: 24px;
+}
+.sobre {
+    background-color: #F4F3F3;
+}
+.sobre .nome {
+    font-family: "lexend";
+    color: #000000;
+}
+h3 {
+    font-family: "lexend";
+    font-size: 30px;
+    color: #598C38;
+}
+h4 {
+        font-family: "lexend";
+        font-size: 40px;
+        color: #F4F3F3;
+        margin-bottom: 15px;
+}
+section,footer,header {
+    padding: 0px 150px;
+}
+.sobre {
+    padding: 50px 150px;
+}
+header {
+padding-top: 200px;
+
+}
+.Impacto {
+    background-color: #476C30;
+}
+.textoimpacto{
+    font-family: "lexend";
+        font-size: 20px;
+        color: #f9f9f9;
+        margin-top: 15px;
+        margin-bottom: 15px;
+}
+.divREDUÇÃO {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+}
+.DivSustenta {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    }
+    .DivInovação {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    }
+.imgImpact {
+    margin-right: 15px;
+    width: 200px;
+    height: 150px;
+    justify-content: center;
+}
